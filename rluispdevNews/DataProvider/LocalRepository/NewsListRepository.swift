@@ -26,9 +26,11 @@ class NewsListRepository {
                let data =  try Data(contentsOf: url, options: .mappedIfSafe)
                 
                 let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
                 let newsModelList = try decoder.decode([NewsModel].self, from: data)
                 completion(newsModelList, nil)
             } catch{
+                print("Error direto: \(error)")
                 completion(nil, error)
             }
             }else{
@@ -37,3 +39,5 @@ class NewsListRepository {
         }
     }
 
+
+ 

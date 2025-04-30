@@ -14,6 +14,6 @@ struct NewsModel: Codable {
     var description: String
     var url: String
     var urlToImage: String
-    var publishedAt: Data
+    var publishedAt: Date
     var content: String
 }
