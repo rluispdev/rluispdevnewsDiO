@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct NewsModel {
+struct NewsModel: Codable {
     var source: SourceModel
     var author: String
     var title: String?
