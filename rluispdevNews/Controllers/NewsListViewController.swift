@@ -29,6 +29,7 @@ class NewsListViewController: UIViewController{
     private func setupTableView(){
         self.newsListTableView.delegate = self
         self.newsListTableView.dataSource = self
+        self.newsListTableView.register(UINib(nibName: "NewsTableViewCell", bundle: nil), forCellReuseIdentifier: "NewsTableViewCell")
         
     }
     
@@ -57,7 +58,16 @@ extension NewsListViewController : UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    return  UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "NewsTableViewCell", for: indexPath) as? NewsTableViewCell else {
+            fatalError( "Could not dequeue cell with identifier: NewsTableViewCell")
+        }
+        
+        guard let newList = newsList else{
+            fatalError( " Does not exist data")
+        }
+        
+        cell.news = newsList?[indexPath.row]
+    return  cell
     }
 }
 
