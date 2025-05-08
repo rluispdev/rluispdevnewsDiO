@@ -23,6 +23,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.1843137255" green="0.1450980392" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" systemColor="tintColor"/>
                         <constraints>
                             <constraint firstItem="QcG-th-wPA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Nfo-jq-gZ3"/>
                             <constraint firstItem="QcG-th-wPA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QcG-EV-7h1"/>
@@ -49,7 +50,10 @@
                         <color key="backgroundColor" red="0.18431372549019609" green="0.14509803921568626" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.18431372549019609" green="0.14509803921568626" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -64,6 +68,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
