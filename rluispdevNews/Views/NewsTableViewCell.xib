@@ -38,7 +38,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="CRd-kD-Cpv" userLabel="Stack View Title">
-                                <rect key="frame" x="0.0" y="65" width="720" height="97.333333333333314"/>
+                                <rect key="frame" x="0.0" y="65.666666666666686" width="720" height="97.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confira lista completa com todas as séries renovadas e canceladas em 2025 na TV e streaming" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36m-8V-Oe0">
                                         <rect key="frame" x="0.0" y="0.0" width="720" height="43"/>
@@ -56,7 +56,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="VN7-Tb-q5A" userLabel="Stack View Contents">
-                                <rect key="frame" x="0.0" y="193" width="720" height="266"/>
+                                <rect key="frame" x="0.0" y="194.66666666666666" width="720" height="264.33333333333337"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Col-fE-A1Z">
                                         <rect key="frame" x="0.0" y="0.0" width="720" height="240"/>
@@ -65,19 +65,18 @@
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="sgg-Gh-ogt">
-                                        <rect key="frame" x="0.0" y="244" width="720" height="22"/>
+                                        <rect key="frame" x="0.0" y="244.00000000000003" width="720" height="20.333333333333343"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="07/05/2025" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNK-Ae-j2Z">
-                                                <rect key="frame" x="0.0" y="0.0" width="694" height="22"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="694" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <color key="textColor" systemColor="systemGrayColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="link" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="f6O-IS-dw7">
-                                                <rect key="frame" x="698" y="-3.5527136788005009e-15" width="22" height="22.333333333333336"/>
+                                                <rect key="frame" x="698" y="-3.5527136788005009e-15" width="22" height="20.666666666666671"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="22" id="9vO-0H-vrN"/>
-                                                    <constraint firstAttribute="height" constant="22" id="izu-Zy-Cbs"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
